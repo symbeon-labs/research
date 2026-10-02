@@ -2,7 +2,7 @@
 
 **Version:** v0.1  
 **Status:** Draft Research Note / Evolution of Framework  
-**Author:** João Manoel Oliveira Silva (JX)  
+**Author:** JX-SH1W4  
 **Organization:** SYMBEON — Intelligence Systems Lab
 
 ## Purpose
