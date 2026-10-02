@@ -475,7 +475,114 @@ These tests are more informative than demonstrating only that a PDI-derived arch
 
 ---
 
-## 11. Related Work and Positioning
+## 11. Related Work and Literature Positioning
+
+PDI must be positioned against established work rather than treated as an isolated proposal.
+
+### 11.1 Problem representation in artificial intelligence
+
+Problem representation has been a foundational concern in AI and automated problem solving. Earlier work explicitly investigated how alternative representations change the structure of a problem and the search space available to a solver. Work on automatic representation change, for example, treated the problem description itself as an object that could be evaluated and transformed rather than as a neutral input. citeturn2search44
+
+This establishes an important precedent for ART-003: representation is not merely a documentation layer. It can affect what a computational system can derive or solve.
+
+PDI therefore cannot claim that the relationship between problem representation and computational capability is novel in itself. Its narrower question concerns whether a structured representation of a problem can be used as an explicit input to derive **capability requirements and system architecture**, rather than primarily to select or improve a problem-solving algorithm.
+
+### 11.2 Requirements engineering and architecture derivation
+
+The most direct neighboring literature is software engineering research on the transition from requirements to architecture.
+
+A 2006 review explicitly identified the transition from requirements engineering to software architecture as an insufficiently formalized research area and surveyed approaches for bridging the two stages. citeturn1search1
+
+A systematic mapping study published in 2019 examined 39 primary studies on deriving architectural models from requirements specifications. Its findings are particularly relevant to PDI: existing methods rely substantially on architects' tacit knowledge and intuition and often lack explicit evaluation mechanisms. citeturn1search2
+
+This literature creates both an overlap and a possible research opening.
+
+The overlap is direct:
+
+[
+REQUIREMENTS ightarrow ARCHITECTURE
+]
+
+is already an established research problem.
+
+The possible PDI contribution is therefore not the existence of this transition. It is the hypothesis that a **computational problem representation can act as an explicit intermediate object from which capability requirements are derived before architectural composition**:
+
+[
+PROBLEM REPRESENTATION
+ightarrow
+CAPABILITIES
+ightarrow
+ARCHITECTURE
+]
+
+Whether this additional layer provides measurable value over existing requirements-to-architecture methods is an open empirical question.
+
+### 11.3 Requirements traceability
+
+Requirements traceability is also an established field. Research has examined links between requirements and downstream artifacts, including architecture and implementation, as a means of preserving rationale, supporting change management, and maintaining alignment. citeturn1search7turn1search8
+
+A systematic review of pre-requirements traceability further shows that traceability can extend backward to the origins and contextual sources of requirements, including stakeholder information and project artifacts. citeturn1search0
+
+This matters because PDI currently uses **traceability** as one of its proposed evaluation criteria. PDI must therefore distinguish:
+
+- established requirements traceability;
+- traceability from problem representation to capability;
+- traceability from capability to architecture;
+- and any claim that such links can be generated or evaluated computationally.
+
+The latter remains a research question.
+
+### 11.4 Design Science
+
+Design Science Research provides an established methodological foundation for treating artifact construction and evaluation as research. Hevner et al. describe design science as a paradigm in which knowledge about a problem domain and its solution is produced through the building and application of artifacts. citeturn0search1
+
+PDI is compatible with this tradition. Its scientific contribution therefore cannot simply be “an architecture design method.” The contribution must instead be demonstrated through a testable artifact, derivation procedure, or empirical finding that advances understanding of the relationship between problem representation and architecture.
+
+### 11.5 AI system lifecycle and governance
+
+NIST's AI RMF already requires AI system context, objectives, assumptions, requirements, capabilities, human oversight and risk considerations to be identified and documented. Its Core organizes activities through Govern, Map, Measure and Manage, with governance treated as cross-cutting across the lifecycle. citeturn0search2turn0search48
+
+Consequently, PDI should not claim to introduce problem/context/requirements/governance as concepts for AI architecture. The potential distinction is whether these elements can be connected through an explicit computational derivation:
+
+[
+PROBLEM
+ightarrow
+REPRESENTATION
+ightarrow
+CAPABILITY REQUIREMENTS
+ightarrow
+ARCHITECTURAL REQUIREMENTS
+ightarrow
+RESOURCE SELECTION
+]
+
+### 11.6 Contemporary "Problem-Driven AI"
+
+A further contemporary overlap must be acknowledged. A 2026 methodology named **Problem-Driven AI** explicitly advocates putting the problem before the build and defines a lifecycle that moves from Problem to Solution, Context, AI Build and Market. Its published material emphasizes validated problem definition, context, traceability and AI-assisted construction. citeturn2search0turn2search2turn2search5
+
+This is conceptually adjacent to PDI, particularly in its rejection of solution-first AI development. However, based on the material reviewed here, it is a methodology for AI product development and context engineering rather than the same research hypothesis as PDI. PDI's intended focus is narrower and more formal: **whether computational problem structure can be transformed into capability requirements and then architectural composition through a testable derivation procedure**.
+
+Because the terminology is now potentially confusable, PDI should avoid claiming exclusive ownership of the phrase "problem-driven" and should make the distinction explicit in future publications.
+
+### 11.7 Literature-positioned research gap
+
+The literature review therefore changes the PDI research claim.
+
+The broad proposition:
+
+> “Architecture should be derived from the problem.”
+
+is **not novel enough to serve as the scientific contribution**.
+
+A more defensible research proposition is:
+
+> **Can a computational representation of a problem provide a reproducible intermediate basis for deriving capability requirements and architectural composition, with explicit traceability and measurable evaluation, beyond what is achieved by established requirements-engineering and architecture-design methods?**
+
+This is the proposition that subsequent PDI experiments should test.
+
+---
+
+## 13. Relationship to Subsequent Research
 
 PDI sits at the intersection of several established research traditions.
 
@@ -527,7 +634,7 @@ The broader research program remains open to results that reject parts of this c
 
 ---
 
-## 13. Limitations
+## 14. Limitations
 
 This paper has several important limitations.
 
@@ -547,7 +654,7 @@ Seventh, real-world validation across independent domains is still required.
 
 ---
 
-## 14. Research Program
+## 15. Research Program
 
 The initial research program follows the sequence:
 
@@ -591,7 +698,7 @@ The program should preserve a strict distinction between:
 
 ---
 
-## 15. Discussion
+## 16. Discussion
 
 The principal contribution proposed by PDI is not a new model or software component. It is a change in the direction of architectural reasoning.
 
@@ -623,7 +730,7 @@ That proposition is testable.
 
 ---
 
-## 16. Conclusion
+## 17. Conclusion
 
 This paper introduced Problem-Derived Intelligence as a research framework for investigating the derivation of intelligence architectures from computational problem structure.
 
