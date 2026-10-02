@@ -55,6 +55,7 @@ Unless explicitly supported by recorded evidence, this repository does not claim
 
 ## Author
 
-**João Manoel Oliveira Silva (JX)**  
+**JX-SH1W4**  
+Independent Researcher  
 SYMBEON — Intelligence Systems Lab
 
