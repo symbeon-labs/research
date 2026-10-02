@@ -51,7 +51,7 @@ The claim is deliberately weaker than a claim of universal architectural optimal
 The initial framework is:
 
 [
-PROBLEM ightarrow FORMALIZATION ightarrow CAPABILITIES ightarrow ARCHITECTURE ightarrow RESOURCES ightarrow SOLUTION
+PROBLEM \rightarrow FORMALIZATION \rightarrow CAPABILITIES \rightarrow ARCHITECTURE \rightarrow RESOURCES \rightarrow SOLUTION
 ]
 
 Each transition represents a research question rather than an assumed automatic mapping.
@@ -85,25 +85,25 @@ Let a problem be represented as a computational structure (P).
 Let:
 
 [
-F(P) = 	ext{formalized problem representation}
+F(P) = \text{formalized problem representation}
 ]
 
 [
-C(F(P)) = 	ext{required capabilities}
+C(F(P)) = \text{required capabilities}
 ]
 
 [
-A(C) = 	ext{candidate architecture}
+A(C) = \text{candidate architecture}
 ]
 
 [
-R(A) = 	ext{required resources}
+R(A) = \text{required resources}
 ]
 
 PDI hypothesizes that there exists a useful **explicit and inspectable** derivation chain:
 
 [
-P ightarrow F(P) ightarrow C(F(P)) ightarrow A(C) ightarrow R(A)
+P \rightarrow F(P) \rightarrow C(F(P)) \rightarrow A(C) \rightarrow R(A)
 ]
 
 such that the resulting architecture is traceable to explicit requirements of the original problem.
@@ -193,13 +193,13 @@ A capability is not synonymous with a model.
 For example:
 
 [
-CAPABILITY = 	ext{entity identification}
+CAPABILITY = \text{entity identification}
 ]
 
 does not imply:
 
 [
-RESOURCE = 	ext{specific AI model}
+RESOURCE = \text{specific AI model}
 ]
 
 The resource is selected only after the capability requirement has been established.
@@ -256,13 +256,13 @@ The central conceptual shift of PDI is to treat architecture as a **derived obje
 A conventional architecture-first process may be represented as:
 
 [
-AVAILABLE TECHNOLOGY ightarrow ARCHITECTURE ightarrow APPLICATION
+AVAILABLE TECHNOLOGY \rightarrow ARCHITECTURE \rightarrow APPLICATION
 ]
 
 PDI proposes investigating:
 
 [
-PROBLEM ightarrow REQUIREMENTS ightarrow ARCHITECTURE
+PROBLEM \rightarrow REQUIREMENTS \rightarrow ARCHITECTURE
 ]
 
 The difference is not that technology becomes irrelevant. Technology remains necessary. The difference is where technology enters the derivation process.
@@ -282,10 +282,10 @@ The architecture is therefore justified through a chain such as:
 
 [
 Problem Requirement
-ightarrow Capability
-ightarrow Transformation
-ightarrow Architectural Component
-ightarrow Resource
+\rightarrow Capability
+\rightarrow Transformation
+\rightarrow Architectural Component
+\rightarrow Resource
 ]
 
 This chain provides a potential basis for architectural traceability.
@@ -299,7 +299,7 @@ A central unresolved problem is how to derive capabilities systematically.
 A provisional transformation is:
 
 [
-F(P) ightarrow C
+F(P) \rightarrow C
 ]
 
 where (F(P)) is the formalized problem and (C) is the capability set.
@@ -331,7 +331,7 @@ These mappings are hypotheses to be tested rather than universal rules.
 Once capabilities have been identified, the next transformation is:
 
 [
-C ightarrow A
+C \rightarrow A
 ]
 
 The architecture should provide a mechanism for each required capability while minimizing unnecessary duplication.
@@ -380,10 +380,10 @@ A generalized operational chain can be represented as:
 
 [
 OBSERVATION
-ightarrow EVIDENCE
-ightarrow INTERPRETATION
-ightarrow OPERATIONAL REPRESENTATION
-ightarrow STATE/ACTION
+\rightarrow EVIDENCE
+\rightarrow INTERPRETATION
+\rightarrow OPERATIONAL REPRESENTATION
+\rightarrow STATE/ACTION
 ]
 
 This layer is particularly relevant for systems in which the cost of an incorrect or untraceable decision is significant.
@@ -418,7 +418,7 @@ Potential evaluation dimensions include:
 ### Requirement coverage
 
 [
-Coverage = rac{	ext{requirements satisfied}}{	ext{requirements identified}}
+Coverage = \frac{\text{requirements satisfied}}{\text{requirements identified}}
 ]
 
 ### Traceability
@@ -513,13 +513,13 @@ The relationship can be represented as:
 
 [
 PDI
-ightarrow
+\rightarrow
 Problem Representation
-ightarrow
+\rightarrow
 Capability Derivation
-ightarrow
+\rightarrow
 Architecture Derivation
-ightarrow
+\rightarrow
 Experimental Validation
 ]
 
@@ -553,15 +553,15 @@ The initial research program follows the sequence:
 
 [
 PROBLEM
-ightarrow
+\rightarrow
 FORMALIZATION
-ightarrow
+\rightarrow
 CAPABILITIES
-ightarrow
+\rightarrow
 ARCHITECTURE
-ightarrow
+\rightarrow
 RESOURCES
-ightarrow
+\rightarrow
 SOLUTION
 ]
 
@@ -630,17 +630,17 @@ This paper introduced Problem-Derived Intelligence as a research framework for i
 The proposed direction is:
 
 [
-oxed{
+\boxed{
 PROBLEM
-ightarrow
+\rightarrow
 FORMALIZATION
-ightarrow
+\rightarrow
 CAPABILITIES
-ightarrow
+\rightarrow
 ARCHITECTURE
-ightarrow
+\rightarrow
 RESOURCES
-ightarrow
+\rightarrow
 SOLUTION
 }
 ]
