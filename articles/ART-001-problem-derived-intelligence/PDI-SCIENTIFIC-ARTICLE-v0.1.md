@@ -1,6 +1,6 @@
 # Problem-Derived Intelligence: A Framework for Deriving Intelligence Architectures from Computational Problem Structure
 
-**Manuscript version:** v0.1 — Research Draft  
+**Manuscript version:** v0.2 — Revised Scientific Draft  
 **Research program:** Problem-Derived Intelligence (PDI)  
 **Author:** JX-SH1W4  
 **Organization:** SYMBEON — Intelligence Systems Lab  
@@ -28,17 +28,17 @@ This paper presents PDI as a research framework and hypothesis, not as an empiri
 
 ## 1. Introduction
 
-The development of intelligent software systems commonly begins with technological primitives: a language model, an agent framework, a retrieval system, a database, an orchestration layer, or a collection of specialized services. These components may subsequently be organized around an application problem.
+Intelligent-system design is not uniformly architecture-first. Requirements engineering, systems engineering, design science, and AI risk-management practices already emphasize problem context, objectives, requirements, evaluation, and governance as inputs to system design. citeturn0search0turn0search3
 
-PDI investigates the inverse direction.
+PDI therefore does not claim to introduce the general principle that systems should respond to problems. Its narrower research question is whether the relationship between **problem representation, capability requirements, and architecture** can be made explicit enough to support a reproducible and inspectable derivation procedure.
 
-Instead of asking:
+Instead of treating the following as an implicit design activity:
 
-> Which model, agent, or architecture should be used for this application?
+> Which capabilities and architectural components should satisfy this problem?
 
-PDI begins with:
+PDI investigates whether that reasoning can be represented as an explicit chain:
 
-> What computational structure does the problem contain, what capabilities are required to operate on that structure, and what architecture follows from those requirements?
+> What computational structure does the problem contain, which capabilities follow from that structure, and which architectural compositions can satisfy those capabilities?
 
 This distinction is important because an intelligence system is not defined only by the models it contains. Its behavior also depends on the transformations it performs, the information it must preserve, the constraints under which it operates, the evidence available to it, and the actions or states it must ultimately produce.
 
@@ -46,7 +46,7 @@ PDI therefore proposes a research hypothesis:
 
 > **The computable structure of a problem can provide a basis for deriving the capability requirements and candidate architecture of an intelligence system designed to solve that problem.**
 
-The claim is deliberately weaker than a claim of universal architectural optimality. PDI does not assume that a problem has one unique architecture, nor that a derived architecture will always outperform a manually designed system. Its purpose is to establish whether problem structure can serve as a reproducible derivation input for intelligence-system design.
+The claim is deliberately weaker than a claim of universal architectural optimality. PDI does not assume that a problem has one unique architecture, nor that a derived architecture will always outperform a manually designed system. Its purpose is to establish whether problem structure can serve as a reproducible derivation input for intelligence-system design **beyond the informal requirements-to-design reasoning already present in established engineering approaches**.
 
 The initial framework is:
 
@@ -100,7 +100,7 @@ A(C) = 	ext{candidate architecture}
 R(A) = 	ext{required resources}
 ]
 
-PDI hypothesizes that there exists a useful derivation chain:
+PDI hypothesizes that there exists a useful **explicit and inspectable** derivation chain:
 
 [
 P ightarrow F(P) ightarrow C(F(P)) ightarrow A(C) ightarrow R(A)
@@ -394,15 +394,15 @@ PDI therefore allows governance mechanisms to be derived as architectural requir
 
 ## 9. Evaluation Framework
 
-The PDI hypothesis requires empirical testing.
+The PDI hypothesis requires empirical testing. Because existing engineering and design-science approaches already connect problems, requirements, design and evaluation, the evaluation must test whether PDI adds measurable value beyond those established practices rather than merely reproducing them. citeturn0search0turn0search12
 
 A proposed evaluation program should compare at least two design procedures:
 
-### Condition A — Architecture-first
+### Condition A — Conventional requirements/design baseline
 
-1. identify available technologies;
-2. construct a candidate architecture;
-3. map the architecture to the problem;
+1. characterize the problem and context using an established requirements or systems-design procedure;
+2. derive requirements;
+3. construct a candidate architecture;
 4. evaluate requirement coverage.
 
 ### Condition B — Problem-derived
@@ -453,7 +453,7 @@ Important falsification tests include:
 
 ### Test 1 — Architecture independence
 
-Construct systems for the same problem using architecture-first and problem-derived procedures. If both consistently produce equivalent architectures and traceability without additional information from formalization, the derivation claim is weakened.
+Construct systems for the same problem using architecture-first and problem-derived procedures. If both consistently produce equivalent architectures and equivalent traceability, coverage, reproducibility and design effort, the additional value claimed for PDI is weakened.
 
 ### Test 2 — Representation loss
 
@@ -475,7 +475,25 @@ These tests are more informative than demonstrating only that a PDI-derived arch
 
 ---
 
-## 11. Relationship to Subsequent Research
+## 11. Related Work and Positioning
+
+PDI sits at the intersection of several established research traditions.
+
+**Requirements engineering and systems engineering.** These traditions already begin from problem context and stakeholder/system requirements before detailed design. PDI should therefore not claim ownership of “problem-first” design. Its narrower distinction is an explicit computational derivation from represented problem structure to capability requirements and then to architecture.
+
+**Design Science Research.** Design science treats the construction and evaluation of artifacts as a research activity and provides established guidance concerning problem relevance, artifact design, evaluation, rigor and communication. citeturn0search0turn0search12 PDI can be evaluated within this broader design-oriented research tradition rather than positioned as a replacement for it.
+
+**AI governance and lifecycle frameworks.** NIST's AI RMF requires AI system objectives, context and requirements to be documented and treats governance as cross-cutting across design, development, deployment and evaluation. citeturn0search3turn0search6 PDI is compatible with this orientation. Its research question is whether such requirements can be represented and transformed into capability and architectural requirements through a more explicit derivation mechanism.
+
+The resulting distinction is therefore provisional:
+
+> **PDI is not a claim that architecture should begin with the problem. It is a hypothesis that the computational representation of a problem can support an explicit, traceable and testable derivation from problem distinctions to capabilities and architectural composition.**
+
+This distinction must be tested against existing requirements-engineering and architecture methods before any novelty claim is made.
+
+---
+
+## 12. Relationship to Subsequent Research
 
 PDI is the first article in a broader research program.
 
@@ -509,7 +527,7 @@ The broader research program remains open to results that reject parts of this c
 
 ---
 
-## 12. Limitations
+## 13. Limitations
 
 This paper has several important limitations.
 
@@ -529,7 +547,7 @@ Seventh, real-world validation across independent domains is still required.
 
 ---
 
-## 13. Research Program
+## 14. Research Program
 
 The initial research program follows the sequence:
 
@@ -573,7 +591,7 @@ The program should preserve a strict distinction between:
 
 ---
 
-## 14. Discussion
+## 15. Discussion
 
 The principal contribution proposed by PDI is not a new model or software component. It is a change in the direction of architectural reasoning.
 
@@ -605,7 +623,7 @@ That proposition is testable.
 
 ---
 
-## 15. Conclusion
+## 16. Conclusion
 
 This paper introduced Problem-Derived Intelligence as a research framework for investigating the derivation of intelligence architectures from computational problem structure.
 
@@ -641,7 +659,16 @@ PDI is consequently proposed not as a final architecture, but as a method for in
 
 ## References
 
-This v0.1 manuscript intentionally keeps the bibliography minimal while the conceptual structure is stabilized. A subsequent revision should add a verified literature review covering:
+1. Hevner, A. R., March, S. T., Park, J., & Ram, S. (2004). *Design Science in Information Systems Research*. MIS Quarterly, 28(1), 75–105. urlSourcehttps://aisel.aisnet.org/misq/vol28/iss1/6/
+2. Gregor, S., & Hevner, A. R. (2013). *Positioning and Presenting Design Science Research for Maximum Impact*. MIS Quarterly, 37(2), 337–355. urlSourcehttps://aisel.aisnet.org/misq/vol37/iss2/3/
+3. NIST. (2023). *Artificial Intelligence Risk Management Framework (AI RMF 1.0)*. National Institute of Standards and Technology. urlSourcehttps://www.nist.gov/itl/ai-risk-management-framework
+4. NIST. (2023). *AI RMF Core*. National Institute of Standards and Technology. urlSourcehttps://airc.nist.gov/airmf-resources/airmf/5-sec-core/
+
+A subsequent literature review should expand coverage to requirements engineering, systems engineering, architecture derivation, AI engineering, knowledge representation, program synthesis and related problem-framing approaches.
+
+The current references establish positioning only. They are not presented as evidence that PDI itself is novel or empirically superior.
+
+Additional literature should be incorporated only after direct comparison with the specific PDI claims, rather than by accumulating adjacent citations.
 
 - requirements engineering and problem framing;
 - software and systems architecture;
@@ -658,7 +685,8 @@ No external work is presented here as equivalent to, or as evidence for, the PDI
 
 ## Research status
 
-**PDI status:** Research hypothesis / conceptual framework  
+**PDI status:** Research hypothesis / conceptual framework
+**Manuscript status:** Scientific draft — literature-positioned, not yet submission-ready  
 **Empirical validation:** Not established  
 **Architectural superiority:** Not established  
 **Universal applicability:** Not established  
