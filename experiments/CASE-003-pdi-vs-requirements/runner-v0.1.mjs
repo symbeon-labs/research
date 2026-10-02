@@ -8,7 +8,7 @@ const scenarios = [
 const pdiMap = {
  objective:["acceptance_decision","intervention_permission"],
  temporal_scope:["temporal_validity","applicable_policy","reproducibility"],
- source_identity:["evidence_basis","causal_explanation"],
+ source_identity:["evidence_basis","causal_explanation","physical_quantity","transformation_trace"],
  entity_identity:["identity_determination"],
  relation:["identity_determination"],
  constraint:["applicable_policy","action_constraint","downstream_action_constraint"],
