@@ -94,4 +94,4 @@ These require new experiments or real-world evidence.
 
 ## Reproducibility
 
-Canonical SHA-256 was independently computed from the runner's canonical input structure: `d8a2f3c1b8e46f3d9c0a0e7e4f9a5a9b1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a`.
+Canonical SHA-256: **NOT RECORDED**. The experiment result is retained, but no hash is claimed without an actual runner execution.
