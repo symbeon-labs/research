@@ -29,14 +29,23 @@ Negative or inconclusive results are valid research outputs and remain part of t
 ## Repository structure
 
 ```text
-articles/       Research articles and publication artifacts
-experiments/    Experimental protocols, runs and results
-benchmarks/     Benchmark definitions and evaluation material
-models/         Schemas, ontologies and computational models
-methodology/    Research methods and reproducibility rules
-research-notes/ Short-form research notes and observations
-glossary/       Controlled terminology
+articles/
+├── ART-001-problem-derived-intelligence/
+│   └── README.md
+└── ART-002-evidence-governed-resolution/
+    └── README.md
+
+methodology/
+└── RESEARCH_PROTOCOL.md
+
+README.md
+CITATION.cff
+CHANGELOG.md
+ROADMAP.md
+LICENSE
 ```
+
+Future experiments, benchmarks, models and research notes will be added only when they have a defined protocol and reproducible record.
 
 ## Scope
 
