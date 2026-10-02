@@ -38,20 +38,30 @@ The final result did **not** establish `Resolution` as an irreducible semantic p
 
 The complete experimental record, including negative results and finalization, is preserved under [`experiments/CASE-001-comparative-benchmark/`](experiments/CASE-001-comparative-benchmark/).
 
+### ART-003 — Computational Problem Representation
+
+**Status:** Draft v0.1
+
+ART-003 investigates what information a computational representation of a problem must preserve before capability and architecture derivation. Its first controlled experiment, CASE-002, tests deliberate representation loss.
+
 ## Repository structure
 
 ```text
 articles/
 ├── ART-001-problem-derived-intelligence/
 │   └── README.md
-└── ART-002-evidence-governed-resolution/
+├── ART-002-evidence-governed-resolution/
+│   └── README.md
+└── ART-003-computational-problem-representation/
     └── README.md
 
 methodology/
 └── RESEARCH_PROTOCOL.md
 
 experiments/
-└── CASE-001-comparative-benchmark/
+├── CASE-001-comparative-benchmark/
+│   └── finalized v0.1 → v0.9
+└── CASE-002-representation-loss/
     ├── protocol + scenarios
     ├── baseline
     ├── v0.1 → v0.9 experiments
