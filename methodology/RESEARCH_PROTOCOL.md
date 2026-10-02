@@ -38,5 +38,7 @@ Experiments should record enough versioned information to reconstruct what was t
 
 ## 6. Relationship to implementations
 
-Implementations are experimental instruments and evidence sources. They do not automatically validate a research hypothesis.
+Implementations and applications may serve as experimental instruments or evidence sources. They do not automatically validate a research hypothesis.
+
+The research record should remain conceptually independent from any single implementation, product or deployment.
 
