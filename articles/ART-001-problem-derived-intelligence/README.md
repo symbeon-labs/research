@@ -2,7 +2,7 @@
 
 **Version:** v1.0 FINAL  
 **Status:** Research Framework  
-**Author:** João Manoel Oliveira Silva (JX)  
+**Author:** JX-SH1W4  
 **Organization:** SYMBEON — Intelligence Systems Lab
 
 ## Abstract
