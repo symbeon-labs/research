@@ -1,9 +1,9 @@
 # CASE-002 — Results v0.0
 
-**Status:** Not executed  
+**Status:** Superseded by RESULTS-v0.1  
 **Purpose:** Result placeholder before the first controlled run.
 
-No empirical or synthetic result is recorded in this file yet.
+The pre-execution placeholder is retained for historical continuity. The first execution is recorded in `RESULTS-v0.1.md`.
 
 The first run must execute `runner-v0.1.mjs` against the scenarios and preserve its output before interpretation.
 
