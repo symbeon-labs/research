@@ -34,7 +34,9 @@ Investigates whether problem-derived architecture must specify not only capabili
 
 Investigates what information a computational representation of a problem must preserve in order to support meaningful capability inference and architectural derivation.
 
-**Status:** Planned
+**Status:** Draft v0.1
+
+Initial experiment: CASE-002 — Representation Loss Benchmark.
 
 ---
 
