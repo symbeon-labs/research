@@ -24,7 +24,7 @@ Investigates whether the computable structure of a problem can guide the derivat
 
 Investigates whether problem-derived architecture must specify not only capabilities and topology, but also transformations between observation, evidence, interpretation, resolution, state and action, together with uncertainty handling and authority boundaries.
 
-**Status:** Draft v0.1
+**Status:** Final v1.0
 
 ---
 
