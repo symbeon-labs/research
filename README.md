@@ -15,7 +15,7 @@ The current research sequence is maintained in the [Research Roadmap](ROADMAP.md
 | ID | Title | Status |
 |---|---|---|
 | ART-001 | Problem-Derived Intelligence | Final v1.0 |
-| ART-002 | From Problem-Derived Intelligence to Evidence-Governed Resolution | Draft v0.1 |
+| ART-002 | From Problem-Derived Intelligence to Evidence-Governed Resolution | Final v1.0 |
 | ART-003+ | See roadmap | Planned |
 
 ## Research principle
