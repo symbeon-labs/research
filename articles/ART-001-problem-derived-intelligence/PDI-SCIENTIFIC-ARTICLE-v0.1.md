@@ -767,9 +767,17 @@ PDI is consequently proposed not as a final architecture, but as a method for in
 ## References
 
 1. Hevner, A. R., March, S. T., Park, J., & Ram, S. (2004). *Design Science in Information Systems Research*. MIS Quarterly, 28(1), 75–105. urlSourcehttps://aisel.aisnet.org/misq/vol28/iss1/6/
-2. Gregor, S., & Hevner, A. R. (2013). *Positioning and Presenting Design Science Research for Maximum Impact*. MIS Quarterly, 37(2), 337–355. urlSourcehttps://aisel.aisnet.org/misq/vol37/iss2/3/
-3. NIST. (2023). *Artificial Intelligence Risk Management Framework (AI RMF 1.0)*. National Institute of Standards and Technology. urlSourcehttps://www.nist.gov/itl/ai-risk-management-framework
-4. NIST. (2023). *AI RMF Core*. National Institute of Standards and Technology. urlSourcehttps://airc.nist.gov/airmf-resources/airmf/5-sec-core/
+2. Falessi, D., Cantone, G., & Kazman, R. (2006). *Transition from Requirements to Architecture: A Review and Future Perspective*. Seventh ACIS International Conference on Software Engineering, Artificial Intelligence, Networking and Parallel/Distributed Computing. DOI: 10.1109/SNPD-SAWN.2006.73. urlIEEE Xplorehttps://doi.org/10.1109/SNPD-SAWN.2006.73
+3. A. R. J. et al. (2019). *Deriving architectural models from requirements specifications: A systematic mapping study*. Information and Software Technology, 109, 26–39. DOI: 10.1016/j.infsof.2019.01.004. urlScienceDirecthttps://doi.org/10.1016/j.infsof.2019.01.004
+4. Ramesh, B., & Jarke, M. (2001). *Toward Reference Models for Requirements Traceability*. IEEE Transactions on Software Engineering, 27(1), 58–93. DOI: 10.1109/32.895989. urlIEEE Xplorehttps://doi.org/10.1109/32.895989
+5. Kirova, V., Kirby, M., Kothari, D., & Childress, G. (2008). *Effective requirements traceability: Models, tools, and practices*. Bell Labs Technical Journal. DOI: 10.1002/bltj.20272. urlWileyhttps://doi.org/10.1002/bltj.20272
+6. Mucha, J., Kaufmann, A., & Riehle, D. (2024). *A systematic literature review of pre-requirements specification traceability*. Requirements Engineering, 29, 119–141. DOI: 10.1007/s00766-023-00412-z. urlSpringerhttps://doi.org/10.1007/s00766-023-00412-z
+7. NIST. (2023). *Artificial Intelligence Risk Management Framework (AI RMF 1.0)*. National Institute of Standards and Technology. urlNIST AI RMFhttps://www.nist.gov/itl/ai-risk-management-framework
+8. NIST. (2023). *AI RMF Core*. National Institute of Standards and Technology. urlNIST AI RMF Corehttps://airc.nist.gov/airmf-resources/airmf/5-sec-core/
+9. Mucha, J., Kaufmann, A., & Riehle, D. (2024). The systematic review above is also used here for the distinction between pre-requirements and post-requirements traceability. urlArticlehttps://link.springer.com/article/10.1007/s00766-023-00412-z
+10. Gregor, S., & Hevner, A. R. (2013). *Positioning and Presenting Design Science Research for Maximum Impact*. MIS Quarterly, 37(2), 337–355. urlSourcehttps://aisel.aisnet.org/misq/vol37/iss2/3/
+11. NIST. (2023). *Artificial Intelligence Risk Management Framework (AI RMF 1.0)*. National Institute of Standards and Technology. urlSourcehttps://www.nist.gov/itl/ai-risk-management-framework
+12. NIST. (2023). *AI RMF Core*. National Institute of Standards and Technology. urlSourcehttps://airc.nist.gov/airmf-resources/airmf/5-sec-core/
 
 A subsequent literature review should expand coverage to requirements engineering, systems engineering, architecture derivation, AI engineering, knowledge representation, program synthesis and related problem-framing approaches.
 
