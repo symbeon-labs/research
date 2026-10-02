@@ -40,7 +40,7 @@ glossary/       Controlled terminology
 
 This repository is the research layer.
 
-Related implementations and applications live in separate repositories, including ORC, 3L0 and experimental applications. Those systems may provide evidence for this research, but they are not substitutes for the research record.
+Implementations and applications may provide experimental instruments or evidence for this research, but they remain external to the research record unless explicitly incorporated into a research artifact.
 
 ## Status discipline
 
