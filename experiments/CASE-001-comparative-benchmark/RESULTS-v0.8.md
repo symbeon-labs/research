@@ -98,4 +98,4 @@ These are engineering/semantic hypotheses, not presumed wins.
 
 Canonical SHA-256:
 
-`PLACEHOLDER`
+`NOT_RECORDED — semantic equivalence was evaluated by the runner; canonical hash requires local execution of runner-v0.8.mjs.`
