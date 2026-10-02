@@ -12,3 +12,6 @@
 - Finalized the semantic-necessity investigation for `Resolution`.
 - Recorded the negative result: no irreducible `Resolution` primitive was established in the tested synthetic cases.
 - Closed the stage with `FINALIZATION-v1.0.md` and preserved the complete experimental record.
+
+- Opened ART-003 v0.1 with a controlled representation-loss hypothesis and CASE-002 protocol.
+- Added synthetic scenarios, deterministic baseline, runner and pre-execution results record for CASE-002.
