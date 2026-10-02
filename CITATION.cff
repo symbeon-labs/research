@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: "SYMBEON — Intelligence Systems Research"
+message: "If this repository supports your research, please cite it."
+type: dataset
+authors:
+  - family-names: "Oliveira Silva"
+    given-names: "João Manoel"
+    affiliation: "SYMBEON"
+repository-code: "https://github.com/symbeon-labs/research"
+license: MIT
+keywords:
+  - artificial intelligence
+  - intelligence systems
+  - problem-derived intelligence
+  - evidence
+  - resolution
+  - governance
+  - multi-agent systems
