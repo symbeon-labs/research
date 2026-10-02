@@ -26,6 +26,18 @@ The program follows a versioned loop:
 
 Negative or inconclusive results are valid research outputs and remain part of the record.
 
+## Current experimental record
+
+### CASE-001 — Comparative Resolution Investigation
+
+**Status:** Stage finalized — 2026-10-02
+
+CASE-001 is the first controlled synthetic benchmark in this repository. Its v0.1–v0.9 sequence progressively tested preservation, composition, question-conditioned resolution and the necessity of an explicit `Resolution` primitive.
+
+The final result did **not** establish `Resolution` as an irreducible semantic primitive. The surviving research question is narrower: whether an explicit Operational Resolution boundary provides measurable architectural, governance, interoperability or operational value in real systems.
+
+The complete experimental record, including negative results and finalization, is preserved under [`experiments/CASE-001-comparative-benchmark/`](experiments/CASE-001-comparative-benchmark/).
+
 ## Repository structure
 
 ```text
@@ -37,6 +49,14 @@ articles/
 
 methodology/
 └── RESEARCH_PROTOCOL.md
+
+experiments/
+└── CASE-001-comparative-benchmark/
+    ├── protocol + scenarios
+    ├── baseline
+    ├── v0.1 → v0.9 experiments
+    ├── reproducibility runners
+    └── FINALIZATION-v1.0.md
 
 README.md
 CITATION.cff
